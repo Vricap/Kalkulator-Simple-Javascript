@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(
+    to left,
+    rgba(196, 177, 153, 0.959),
+    rgb(132, 151, 202)
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 450px;
+  height: 600px;
+
+  display: flex;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.1);
+
+  flex-direction: column;
+}
+
+.output {
+  background-color: rgba(48, 44, 44, 0.795);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  color: rgb(211, 182, 182);
+}
+
+.output-operasi {
+  padding: 20px;
+
+  font-size: 15px;
+  height: 7px;
+  color: rgba(211, 182, 182, 0.753);
+  text-align: end;
+}
+
+.output-kalkulasi {
+  padding: 20px;
+
+  font-size: 30px;
+
+  height: 20px;
+  text-align: end;
+}
+
+.input {
+  height: 100%;
+  padding: 20px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background: linear-gradient(to top, rgb(132, 150, 155), rgb(147, 214, 173));
+}
+
+.input a {
+  font-size: 30px;
+
+  background-color: rgb(218, 208, 190);
+  color: rgb(65, 60, 60);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input a:hover {
+  background-color: rgba(218, 208, 190, 0.719);
+  color: rgba(65, 60, 60, 0.699);
+}
+
+.input a:active {
+  background-color: rgba(218, 208, 190, 0);
+  color: rgba(65, 60, 60, 0.699);
+}
+
+.input a:nth-child(2) {
+  grid-column: 2 / 4;
+}
+
+.input a:nth-child(17) {
+  grid-column: 2 / 4;
+}
