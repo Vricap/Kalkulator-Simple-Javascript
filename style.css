@@ -4,7 +4,11 @@
 }
 
 body {
-  background: url(https://i.ytimg.com/vi/UfilfWM1H0A/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4Ac4FgAKACooCDAgAEAEYfyBFKDYwDw==&rs=AOn4CLDz73Hbfa7HHFgQQccMdduQUBrMiQ);
+  background: linear-gradient(
+    to left,
+    rgba(196, 177, 153, 0.959),
+    rgb(132, 151, 202)
+  );
   height: 100vh;
   display: flex;
   justify-content: center;
